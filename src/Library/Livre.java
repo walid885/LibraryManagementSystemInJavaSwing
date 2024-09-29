@@ -20,7 +20,7 @@ public class Livre {
 		return Titre;
 	}
 	
-	public void setTitre( String titre) {
+	public void setTitre( String Titre) {
 		this.Titre = Titre; 
 	}
 	
