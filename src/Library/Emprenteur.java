@@ -20,6 +20,30 @@ public class Emprenteur extends JFrame {
 	private JTextField codeEmprenteur;
 	private JTextField preEmprenteur;
 
+	public JTextField getNomEmprenteur() {
+		return nomEmprenteur;
+	}
+
+	public void setNomEmprenteur(JTextField nomEmprenteur) {
+		this.nomEmprenteur = nomEmprenteur;
+	}
+
+	public JTextField getCodeEmprenteur() {
+		return codeEmprenteur;
+	}
+
+	public void setCodeEmprenteur(JTextField codeEmprenteur) {
+		this.codeEmprenteur = codeEmprenteur;
+	}
+
+	public JTextField getPreEmprenteur() {
+		return preEmprenteur;
+	}
+
+	public void setPreEmprenteur(JTextField preEmprenteur) {
+		this.preEmprenteur = preEmprenteur;
+	}
+
 	/**
 	 * Launch the application.
 	 */
